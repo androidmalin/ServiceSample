@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.malin.service.MainActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+
+    <Button
+        android:id="@+id/btn_bind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unBind Service"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_bind_intent_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind IntentService"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_start_long_run_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动后台定时执行任务的服务"
+        android:textAllCaps="false" />
+</LinearLayout>
